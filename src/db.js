@@ -4,7 +4,7 @@ const pool = mysql.createPool({
   host: "aws-rds-daniel.closqgcqkgc6.us-east-1.rds.amazonaws.com",
   user: "admin",
   password: "password", // Coloca tu contraseña de MySQL
-  database: "aws-rds-daniel",
+  database: "aws_rds_daniel",
   port: 3306,
   waitForConnections: true,
   connectionLimit: 10,
